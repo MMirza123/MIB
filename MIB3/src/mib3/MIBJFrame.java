@@ -191,7 +191,7 @@ public class MIBJFrame extends javax.swing.JFrame {
         String b=Lössenord.getText();
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mibdb","root","Hejsvejs289");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mibdb","root","Marmih21.");
             Statement st=con.createStatement();
             String q="Select * from Agent";
             ResultSet rs=st.executeQuery(q);
